@@ -10,11 +10,6 @@ class Car extends Auto
     {
         $this->kit = $kit;
     }
-
-    public function getKit()
-    {
-        return $this->kit;
-    }
     public function showInfo()
     {
         parent::showInfo();
